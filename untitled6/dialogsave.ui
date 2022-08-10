@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogSave</class>
+ <widget class="QDialog" name="DialogSave">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>943</width>
+    <height>416</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>환자 정보 수정</string>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="2">
+    <layout class="QFormLayout" name="formLayout_2">
+     <item row="0" column="0">
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>이름</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string>생년월일</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_18">
+           <property name="text">
+            <string>Phone</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_19">
+           <property name="text">
+            <string>담당자</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_20">
+           <property name="text">
+            <string>최근 방문</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="1">
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <item>
+          <widget class="QLineEdit" name="nameEdit_2"/>
+         </item>
+         <item>
+          <widget class="QDateEdit" name="birthEdit_2"/>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QComboBox" name="phoneCombobox_2">
+             <item>
+              <property name="text">
+               <string>010</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>011</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>016</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>017</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>018</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>019</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="phoneEdit_3"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_21">
+             <property name="text">
+              <string>-</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="phoneEdit_4"/>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="docEdit_2"/>
+         </item>
+         <item>
+          <widget class="QDateEdit" name="cvisitEdit_2"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <item>
+          <widget class="QLabel" name="label_22">
+           <property name="text">
+            <string>환자ID</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_23">
+           <property name="text">
+            <string>환자번호</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_24">
+           <property name="text">
+            <string>TEL</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_25">
+           <property name="text">
+            <string>E-mail</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_26">
+           <property name="text">
+            <string>첫 방문</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_9">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <item>
+            <widget class="QLineEdit" name="pidEdit_2">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="inputMethodHints">
+              <set>Qt::ImhNone</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="pumEdit_2"/>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_9">
+           <item>
+            <widget class="QComboBox" name="telCombobox_2">
+             <item>
+              <property name="text">
+               <string>02</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>031</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>032</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>033</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>041</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>042</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>043</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>044</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>051</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>052</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>053</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>054</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>055</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>061</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>062</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>063</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>064</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="telEdit_3"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_27">
+             <property name="text">
+              <string>-</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="telEdit_4"/>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_10">
+           <item>
+            <widget class="QLineEdit" name="mailEdit_3"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_28">
+             <property name="text">
+              <string>@</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="mailEdit_4">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="mailcomboBox_2">
+             <item>
+              <property name="text">
+               <string>naver.com</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>hanmail.net</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>gmail.com</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>yahoo.co.kr</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>nate.com</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>daum.net</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>직접입력</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QDateEdit" name="fvisitEdit_2"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0" rowspan="2">
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_17">
+       <property name="text">
+        <string>주소</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QTextEdit" name="addrEdit_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout_10">
+     <item>
+      <widget class="QPushButton" name="addBtn_2">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string>저장</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="closeBtn_2">
+       <property name="text">
+        <string>닫기</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>nameEdit_2</tabstop>
+  <tabstop>pidEdit_2</tabstop>
+  <tabstop>birthEdit_2</tabstop>
+  <tabstop>pumEdit_2</tabstop>
+  <tabstop>phoneCombobox_2</tabstop>
+  <tabstop>phoneEdit_3</tabstop>
+  <tabstop>phoneEdit_4</tabstop>
+  <tabstop>telCombobox_2</tabstop>
+  <tabstop>telEdit_3</tabstop>
+  <tabstop>telEdit_4</tabstop>
+  <tabstop>docEdit_2</tabstop>
+  <tabstop>mailEdit_3</tabstop>
+  <tabstop>mailEdit_4</tabstop>
+  <tabstop>mailcomboBox_2</tabstop>
+  <tabstop>cvisitEdit_2</tabstop>
+  <tabstop>fvisitEdit_2</tabstop>
+  <tabstop>addrEdit_2</tabstop>
+  <tabstop>addBtn_2</tabstop>
+  <tabstop>closeBtn_2</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
