@@ -1,2 +1,3 @@
 # kdw9802
-C++ Natural Sorting Example
+Patient Data Management System
+#QT #C++ #SQLite3
